@@ -67,6 +67,7 @@ The project tests can be executed with the following command:
 
 ```
 . .venv/bin/activate
+pip install -r test-requirements.txt
 python3 -m unittest
 ```
 
