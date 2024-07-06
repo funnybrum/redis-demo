@@ -1,6 +1,6 @@
 # Summary
-Redis offers message broadcasting capabilities via the [Pub/Sub channels](
-https://redis.io/docs/latest/develop/interact/pubsub/). TThe provided code demonstrates how these messages can be broadcast to multiple consumers.Messages are processed
+Redis offers a message broadcasting capabilities via the [Pub/Sub channels](
+https://redis.io/docs/latest/develop/interact/pubsub/). The provided code demonstrates how these messages can be broadcast to multiple consumers. Messages are processed
 and sent to a [stream](https://redis.io/docs/latest/develop/data-types/streams/). Each message is processed and sent to
 the stream at most once.
 
